@@ -19,17 +19,17 @@ public class Student_158c71b90f_Test {
 
     @Test
     public void testStudentId() {
-        assertEquals("1", student.getId());
+        assertEquals("1", student.get_id());
     }
 
     @Test
     public void testStudentName() {
-        assertEquals("John Doe", student.getStudentName());
+        assertEquals("John Doe", student.getStudentname());
     }
 
     @Test
     public void testStudentAddress() {
-        assertEquals("123 Street", student.getStudentAddress());
+        assertEquals("123 Street", student.getStudentaddress());
     }
 
     @Test

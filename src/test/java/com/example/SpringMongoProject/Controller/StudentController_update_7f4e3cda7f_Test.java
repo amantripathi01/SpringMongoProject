@@ -32,8 +32,8 @@ public class StudentController_update_7f4e3cda7f_Test {
         student.setStudentaddress("123 St");
         student.setMobile("1234567890");
 
-        when(studentServices.saveorUpdate(any(Student.class))).thenAnswer(i -> i.getArguments()[0]);
-
+        /* when(studentServices.saveorUpdate(any(Student.class))).thenAnswer(i -> i.getArguments()[0]);
+ */
         Student updatedStudent = studentController.update(student, "1");
 
         assertEquals("1", updatedStudent.get_id());
@@ -48,8 +48,8 @@ public class StudentController_update_7f4e3cda7f_Test {
         student.setStudentaddress("123 St");
         student.setMobile("1234567890");
 
-        when(studentServices.saveorUpdate(any(Student.class))).thenAnswer(i -> i.getArguments()[0]);
-
+       /*  when(studentServices.saveorUpdate(any(Student.class))).thenAnswer(i -> i.getArguments()[0]);
+ */
         Student updatedStudent = studentController.update(student, "1");
 
         assertNotEquals("2", updatedStudent.get_id());

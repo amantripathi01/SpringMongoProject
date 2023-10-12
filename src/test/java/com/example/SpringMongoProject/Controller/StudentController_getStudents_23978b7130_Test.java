@@ -27,7 +27,6 @@ public class StudentController_getStudents_23978b7130_Test {
     public void setup() {
         MockitoAnnotations.initMocks(this);
         studentController = new StudentController();
-        studentController.setStudentServices(studentServices);
     }
 
     @Test

@@ -27,7 +27,7 @@ public class Student_Student_4f0c49de05_Test {
     @Test
     public void testStudentId() {
         String expectedId = "1234";
-        student.setId(expectedId);
-        assertEquals(expectedId, student.getId(), "Student ID not set correctly");
+        student.set_id(expectedId);
+        assertEquals(expectedId, student.get_id(), "Student ID not set correctly");
     }
 }

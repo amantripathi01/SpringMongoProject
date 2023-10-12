@@ -5,6 +5,7 @@ package com.example.SpringMongoProject.Entity;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class Student_get_id_c3fa75ed0b_Test {
 
