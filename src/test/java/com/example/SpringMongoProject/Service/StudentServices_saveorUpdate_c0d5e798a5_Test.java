@@ -24,8 +24,8 @@ public class StudentServices_saveorUpdate_c0d5e798a5_Test {
     public void testSaveOrUpdate() {
         Student student = new Student();
         student.set_id("12345");
-        student.setStudentName("John");
-        student.setStudentAddress("Address1");
+        student.setStudentname("John");
+        student.setStudentaddress("Address1");
         student.setMobile("1234567890");
 
         studentServices.saveorUpdate(student);
