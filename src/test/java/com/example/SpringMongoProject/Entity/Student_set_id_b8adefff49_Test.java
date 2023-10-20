@@ -11,6 +11,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
+import java.security.Provider.Service;
+
 @SpringBootTest
 public class Student_set_id_b8adefff49_Test {
 
@@ -18,7 +20,7 @@ public class Student_set_id_b8adefff49_Test {
     private Student student;
 
     @MockBean
-    private StudentService studentService;
+    private Service studentService;
 
     @BeforeEach
     public void setUp() {

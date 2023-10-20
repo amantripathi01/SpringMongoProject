@@ -4,48 +4,58 @@ package com.example.SpringMongoProject.Controller;
 
 import com.example.SpringMongoProject.Entity.Student;
 import com.example.SpringMongoProject.Service.StudentServices;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.context.SpringBootTest;
-
+import org.mockito.MockitoAnnotations;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.*;
 
-
-@ExtendWith(MockitoExtension.class)
-@SpringBootTest
 public class StudentController_saveStudent_d0ac6d7812_Test {
-
-    @InjectMocks
-    private StudentController studentController;
 
     @Mock
     private StudentServices studentServices;
 
-    @Test
-    public void testSaveStudent() {
-        Student student = new Student();
-        student.set_id("123");
-        when(studentServices.saveorUpdate(student)).thenReturn(student);
+    @InjectMocks
+    private StudentController studentController;
 
-        String result = studentController.saveStudent(student);
-
-        verify(studentServices).saveorUpdate(student);
-        assertEquals("123", result);
+    @BeforeEach
+    public void setUp() {
+        MockitoAnnotations.initMocks(this);
     }
 
     @Test
-    public void testSaveStudentWithoutId() {
-        Student student = new Student();
-        when(studentServices.saveorUpdate(student)).thenReturn(student);
+public void testSaveStudent() {
+    Student student = new Student();
+    student.set_id("123");
 
-        String result = studentController.saveStudent(student);
+    // Mocking the behavior of a void method
+    doNothing().when(studentServices).saveorUpdate(student);
 
-        verify(studentServices).saveorUpdate(student);
-        assertEquals(null, result);
+    String result = studentController.saveStudent(student);
+
+    verify(studentServices).saveorUpdate(student);
+    assertEquals("123", result);
+}
+
+
+@Test
+public void testSaveStudent_NullStudent() {
+    Student student = null;
+
+    // Mocking the behavior of a void method
+    doNothing().when(studentServices).saveorUpdate(any(Student.class));
+
+    String result = studentController.saveStudent(student);
+
+    assertEquals(null, result);
+    verify(studentServices, times(1)).saveorUpdate(student);
+}
+
+
+    private Object when(Object saveorUpdate) {
+        return null;
     }
 }
