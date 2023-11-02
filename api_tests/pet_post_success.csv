@@ -1,0 +1,11 @@
+id,name,photoUrls,status
+1,Max,photo1.jpg,available
+2,Bella,photo2.jpg,pending
+3,Charlie,photo3.jpg,sold
+4,Lucy,photo4.jpg,available
+5,Cooper,photo5.jpg,pending
+6,Daisy,photo6.jpg,sold
+7,Buddy,photo7.jpg,available
+8,Lola,photo8.jpg,pending
+9,Rocky,photo9.jpg,sold
+10,Stella,photo10.jpg,available

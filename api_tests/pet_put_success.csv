@@ -1,0 +1,11 @@
+id,name,photoUrls,status
+12345,Fluffy,https://example.com/photo1.jpg,available
+23456,Spot,https://example.com/photo2.jpg,pending
+34567,Bella,https://example.com/photo3.jpg,sold
+45678,Max,https://example.com/photo4.jpg,available
+56789,Lucy,https://example.com/photo5.jpg,pending
+67890,Charlie,https://example.com/photo6.jpg,sold
+78901,Daisy,https://example.com/photo7.jpg,available
+89012,Cooper,https://example.com/photo8.jpg,pending
+90123,Molly,https://example.com/photo9.jpg,sold
+01234,Oliver,https://example.com/photo10.jpg,available
