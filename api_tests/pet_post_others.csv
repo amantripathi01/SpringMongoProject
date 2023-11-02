@@ -1,0 +1,21 @@
+id,category,name,photoUrls,tags,status
+1234,Cats,Tom,https://example.com/cat1.jpg,Tabby,available
+5678,Dogs,Spike,https://example.com/dog1.jpg,,sold
+9012,Birds,Tweety,https://example.com/bird1.jpg,Canary,available
+3456,Fish,Nemo,https://example.com/fish1.jpg,Clownfish,pending
+7890,Reptiles,Leonardo,https://example.com/reptile1.jpg,,available
+2345,,Garfield,https://example.com/cat2.jpg,Tabby,
+6789,Dogs,,https://example.com/dog2.jpg,Poodle,sold
+0123,Birds,Donald,https://example.com/bird2.jpg,Duck,available
+4567,Fish,Dory,,Blue Tang,pending
+8901,Reptiles,Michelangelo,https://example.com/reptile2.jpg,Teenage Mutant Ninja Turtles,available
+3456,Cats,Felix,https://example.com/cat3.jpg,,sold
+7890,Dogs,Scooby,https://example.com/dog3.jpg,Great Dane,
+1234,Birds,Daffy,https://example.com/bird3.jpg,,available
+5678,Fish,Marlin,https://example.com/fish3.jpg,Clownfish,pending
+9012,Reptiles,Donatello,https://example.com/reptile3.jpg,Teenage Mutant Ninja Turtles,available
+3456,Cats,Sylvester,,Tabby,sold
+7890,Dogs,Pluto,https://example.com/dog4.jpg,,available
+1234,Birds,Porky,https://example.com/bird4.jpg,Pig,pending
+5678,Fish,Bruce,https://example.com/fish4.jpg,Great white shark,available
+9012,Reptiles,Raphael,https://example.com/reptile4.jpg,Teenage Mutant Ninja Turtles,sold

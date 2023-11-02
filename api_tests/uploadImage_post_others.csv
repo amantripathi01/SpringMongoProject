@@ -1,0 +1,11 @@
+petId,additionalMetadata,file
+12345,This is some additional metadata,document.pdf
+67890,,image.jpeg
+24680,More metadata,
+13579,Even more metadata,video.mp4
+86420,,presentation.ppt
+97531,Final bit of metadata,
+10293,,spreadsheet.xls
+45678,Just another metadata,archive.zip
+78901,Yet another metadata,
+56789,,music.mp3

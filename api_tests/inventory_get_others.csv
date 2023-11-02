@@ -1,0 +1,11 @@
+First Name,Last Name,Email,Date of Birth,ID,Phone Number,Gender,Status
+John,Doe,johndoe123@gmail.com,1990-01-01,1234567890,9876543210,Male,Active
+Jane,Doe,janedoe456@yahoo.com,1992-02-02,2345678901,8765432109,Female,Inactive
+,,bobsmith789@outlook.com,1994-03-03,3456789012,7654321098,Male,Active
+Alice,Smith,,1996-04-04,4567890123,6543210987,Female,Inactive
+Bob,Johnson,bobjohnson101@hotmail.com,,5678901234,5432109876,Male,Active
+Charlie,Brown,charliebrown102@icloud.com,1998-06-06,,4321098765,Male,Inactive
+Daisy,Johnson,,2000-07-07,7890123456,3210987654,Female,Active
+Eddie,Brown,eddiebrown103@gmail.com,2002-08-08,8901234567,2109876543,Male,Inactive
+Fiona,Johnson,fionajohnson104@yahoo.com,,9012345678,1098765432,Female,Active
+,,georgebrown105@outlook.com,2004-10-10,12345678901,0987654321,Male,Inactive
