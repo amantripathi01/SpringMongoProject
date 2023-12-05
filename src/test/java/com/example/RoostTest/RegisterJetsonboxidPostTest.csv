@@ -1,0 +1,11 @@
+jetson_uuid,username,clusterId,houseId
+1a2b3c4d,JohnDoe,Cluster1,House1
+5e6f7g8h,JaneSmith,Cluster2,House2
+9i0j1k2l,BobJohnson,Cluster3,House3
+3m4n5o6p,AliceDavis,Cluster4,House4
+7q8r9s0t,TomMiller,Cluster5,House5
+1u2v3w4x,JenniferWilson,Cluster6,House6
+5y6z7a8b,JamesMoore,Cluster7,House7
+9c0d1e2f,SarahTaylor,Cluster8,House8
+3g4h5i6j,RobertAnderson,Cluster9,House9
+7k8l9m0n,PatriciaThomas,Cluster10,House10

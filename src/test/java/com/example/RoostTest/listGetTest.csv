@@ -1,0 +1,11 @@
+user_id,username,email,age,registration_date
+1,JohnDoe,johndoe@gmail.com,28,2021-01-01
+2,JaneDoe,janedoe@gmail.com,32,2021-02-01
+3,BobSmith,bobsmith@gmail.com,45,2021-02-05
+4,AliceJohnson,alicejohnson@gmail.com,25,2021-03-01
+5,TomBrown,tombrown@gmail.com,35,2021-03-10
+6,EmmaWilson,emmawilson@gmail.com,30,2021-04-01
+7,JackTaylor,jacktaylor@gmail.com,40,2021-04-15
+8,SophiaMiller,sophiamiller@gmail.com,33,2021-05-01
+9,MichaelDavis,michaeldavis@gmail.com,38,2021-05-20
+10,OliviaHarris,oliviaharris@gmail.com,27,2021-06-01

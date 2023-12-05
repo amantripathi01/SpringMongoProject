@@ -1,0 +1,11 @@
+user_id,username,email,age,registration_date
+1,johndoe,johndoe@example.com,28,2021-01-01
+2,janesmith,janesmith@example.com,32,2020-03-15
+3,robertbrown,robertbrown@example.com,45,2019-07-20
+4,emilywhite,emilywhite@example.com,22,2022-02-05
+5,michaelscott,michaelscott@example.com,35,2018-06-10
+6,pamelabeasley,pamelabeasley@example.com,30,2021-08-25
+7,jimhalpert,jimhalpert@example.com,31,2020-04-22
+8,dwightschrute,dwightschrute@example.com,38,2019-10-14
+9,angelamartin,angelamartin@example.com,33,2021-05-30
+10,kevinmalone,kevinmalone@example.com,40,2018-11-27
