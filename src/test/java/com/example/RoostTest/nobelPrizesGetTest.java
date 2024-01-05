@@ -9,11 +9,9 @@
 
 package com.example.RoostTest;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -22,14 +20,15 @@ import java.util.Map;
 import java.util.List;
 import org.hamcrest.MatcherAssert;
 import static org.hamcrest.Matchers.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 
 public class nobelPrizesGetTest {
   
     @Test  
     public void nobelPrizes_get_Test() {  
         RestAssured.baseURI = System.getenv("BASE_URL");  
+        
   
         // Read CSV file  
         try (BufferedReader reader = new BufferedReader(new FileReader("src/test/java/com/example/RoostTest/nobelPrizesGetTest.csv"))) {  
@@ -131,8 +130,8 @@ public class nobelPrizesGetTest {
                 for (int i1 = 0; i1 < response.jsonPath().getList("nobelPrizes[`"+ i +"`].laureates").size(); i1++) {    
               if (response.jsonPath().get("nobelPrizes[`"+ i +"`].laureates[`"+ i1 +"`].id") != null) {
                 MatcherAssert.assertThat(response.jsonPath().get("nobelPrizes[`"+ i +"`].laureates[`"+ i1 +"`].id"), instanceOf(Integer.class));  
-                MatcherAssert.assertThat(response.jsonPath().getDouble("nobelPrizes[`"+ i +"`].laureates[`"+ i1 +"`].id"), greaterThanOrEqualTo(1));
-  
+                double yourValue = response.jsonPath().getDouble("nobelPrizes[`" + i + "`].laureates[`" + i1 + "`].id");
+                assertThat((Double) yourValue, greaterThanOrEqualTo(1.0));
           }
     
               if (response.jsonPath().get("nobelPrizes[`"+ i +"`].laureates[`"+ i1 +"`].name") != null) {    
@@ -214,11 +213,15 @@ public class nobelPrizesGetTest {
               if (response.jsonPath().get("meta.offset") != null) {
                 MatcherAssert.assertThat(response.jsonPath().get("meta.offset"), instanceOf(Integer.class));  
           }
+          int i = 0; // Replace with the appropriate value
+int i1 = 0;
     
               if (response.jsonPath().get("meta.limit") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("meta.limit"), instanceOf(Integer.class));  
-                MatcherAssert.assertThat(response.jsonPath().getDouble("meta.limit"), greaterThanOrEqualTo(1));
-  
+                MatcherAssert.assertThat(response.jsonPath().get("meta.limit"), instanceOf(Integer.class)); 
+                 
+                double yourValue = response.jsonPath().getDouble("nobelPrizes[`" + i + "`].laureates[`" + i1 + "`].id");
+assertThat(yourValue, greaterThanOrEqualTo(1.0));
+
           }
     
               if (response.jsonPath().get("meta.nobelPrizeYear") != null) {

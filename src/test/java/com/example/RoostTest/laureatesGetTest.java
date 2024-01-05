@@ -9,11 +9,9 @@
 
 package com.example.RoostTest;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -22,8 +20,8 @@ import java.util.Map;
 import java.util.List;
 import org.hamcrest.MatcherAssert;
 import static org.hamcrest.Matchers.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import static org.hamcrest.MatcherAssert.assertThat;
+
 
 public class laureatesGetTest {
   
@@ -91,7 +89,8 @@ public class laureatesGetTest {
                 for (int i = 0; i < response.jsonPath().getList("laureates").size(); i++) {    
               if (response.jsonPath().get("laureates[`"+ i +"`].id") != null) {
                 MatcherAssert.assertThat(response.jsonPath().get("laureates[`"+ i +"`].id"), instanceOf(Integer.class));  
-                MatcherAssert.assertThat(response.jsonPath().getDouble("laureates[`"+ i +"`].id"), greaterThanOrEqualTo(1));
+                double yourValue = response.jsonPath().getDouble("nobelPrize.laureates[`" + i + "`].id");
+                assertThat(yourValue, greaterThanOrEqualTo(1.0));
   
           }
     
