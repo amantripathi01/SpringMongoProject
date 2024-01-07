@@ -1,0 +1,11 @@
+jetson_uuid,username,clusterId,houseId,statusCode
+123e4567-e89b-12d3-a456-426614174000,john_doe,clusterA,house001,200
+123e4567-e89b-12d3-a456-426614174001,jane_doe,clusterB,house002,400
+123e4567-e89b-12d3-a456-426614174002,mike_smith,clusterC,house003,500
+123e4567-e89b-12d3-a456-426614174003,susan_clark,clusterA,house004,200
+123e4567-e89b-12d3-a456-426614174004,paul_jones,clusterB,house005,400
+123e4567-e89b-12d3-a456-426614174005,nancy_johnson,clusterC,house006,500
+123e4567-e89b-12d3-a456-426614174006,steve_jackson,clusterA,house007,200
+123e4567-e89b-12d3-a456-426614174007,mary_white,clusterB,house008,400
+123e4567-e89b-12d3-a456-426614174008,james_brown,clusterC,house009,500
+123e4567-e89b-12d3-a456-426614174009,jennifer_davis,clusterA,house010,200
