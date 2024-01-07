@@ -1,0 +1,11 @@
+sn,cameraId,timestamp,confidence,alert,subAlert,photoUrl,videoUrl,statusCode
+0904H210008,c79794c4-829d-11ee-b962-0242ac120002,2023-11-29T09:12:33.001Z,0.67,intrusion,person,photo1,https://ipfront.com/photo1,201
+0904H210009,c79794c4-829d-11ee-b962-0242ac120003,2023-11-29T09:13:33.001Z,0.75,intrusion,vehicle,photo2,https://ipfront.com/photo2,201
+0904H210010,c79794c4-829d-11ee-b962-0242ac120004,2023-11-29T09:14:33.001Z,0.80,intrusion,person,photo3,https://ipfront.com/photo3,201
+0904H210011,c79794c4-829d-11ee-b962-0242ac120005,2023-11-29T09:15:33.001Z,0.65,intrusion,vehicle,photo4,https://ipfront.com/photo4,201
+0904H210012,c79794c4-829d-11ee-b962-0242ac120006,2023-11-29T09:16:33.001Z,0.85,intrusion,person,photo5,https://ipfront.com/photo5,201
+0904H210013,c79794c4-829d-11ee-b962-0242ac120007,2023-11-29T09:17:33.001Z,0.90,intrusion,vehicle,photo6,https://ipfront.com/photo6,201
+0904H210014,c79794c4-829d-11ee-b962-0242ac120008,2023-11-29T09:18:33.001Z,0.95,intrusion,person,photo7,https://ipfront.com/photo7,201
+0904H210015,c79794c4-829d-11ee-b962-0242ac120009,2023-11-29T09:19:33.001Z,0.70,intrusion,vehicle,photo8,https://ipfront.com/photo8,201
+0904H210016,c79794c4-829d-11ee-b962-0242ac120010,2023-11-29T09:20:33.001Z,0.75,intrusion,person,photo9,https://ipfront.com/photo9,201
+0904H210017,c79794c4-829d-11ee-b962-0242ac120011,2023-11-29T09:21:33.001Z,0.80,intrusion,vehicle,photo10,https://ipfront.com/photo10,201

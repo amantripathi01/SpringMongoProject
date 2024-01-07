@@ -1,0 +1,11 @@
+jetson_uuid,statusCode
+1a2b3c4d5e6f,200
+2b3c4d5e6f1a,400
+3c4d5e6f1a2b,200
+4d5e6f1a2b3c,400
+5e6f1a2b3c4d,200
+6f1a2b3c4d5e,400
+7g8h9i0j1k2l,200
+8h9i0j1k2l7g,400
+9i0j1k2l7g8h,200
+0j1k2l7g8h9i,400
