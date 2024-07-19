@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+SpringMongoProject,com.example.SpringMongoProject.Entity,Student,0,56,0,0,0,21,0,11,0,11
+SpringMongoProject,com.example.SpringMongoProject,SpringMongoProjectApplication,5,3,0,0,2,1,1,1,1,1
+SpringMongoProject,com.example.SpringMongoProject.Controller,StudentController,0,33,0,0,0,10,0,6,0,6
+SpringMongoProject,com.example.SpringMongoProject.Service,StudentServices,0,25,0,0,0,7,0,5,0,5
