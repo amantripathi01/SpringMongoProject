@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Student.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SpringMongoProject</a> &gt; <a href="index.source.html" class="el_package">com.example.SpringMongoProject.Entity</a> &gt; <span class="el_source">Student.java</span></div><h1>Student.java</h1><pre class="source lang-java linenums">package com.example.SpringMongoProject.Entity;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection =&quot;students&quot;)
+public class Student {
+
+    @Id
+    private String _id;
+    private String studentname;
+    private String studentaddress;
+    private String mobile;
+
+<span class="fc" id="L15">    public Student (String _id,String studentname,String studentaddress, String mobile){</span>
+<span class="fc" id="L16">        this._id=_id;</span>
+<span class="fc" id="L17">        this.studentname = studentname;</span>
+<span class="fc" id="L18">        this.studentaddress = studentaddress;</span>
+<span class="fc" id="L19">        this.mobile= mobile;</span>
+<span class="fc" id="L20">    }</span>
+<span class="fc" id="L21">    public Student() {</span>
+<span class="fc" id="L22">    }</span>
+
+    public String get_id() {
+<span class="fc" id="L25">        return _id;</span>
+    }
+
+    public void set_id(String _id) {
+<span class="nc" id="L29">        this._id = _id;</span>
+<span class="nc" id="L30">    }</span>
+
+    public String getStudentname() {
+<span class="nc" id="L33">        return studentname;</span>
+    }
+
+    public void setStudentname(String studentname) {
+<span class="nc" id="L37">        this.studentname = studentname;</span>
+<span class="nc" id="L38">    }</span>
+
+    public String getStudentaddress() {
+<span class="nc" id="L41">        return studentaddress;</span>
+    }
+
+    public void setStudentaddress(String studentaddress) {
+<span class="nc" id="L45">        this.studentaddress = studentaddress;</span>
+<span class="nc" id="L46">    }</span>
+
+    public String getMobile() {
+<span class="nc" id="L49">        return mobile;</span>
+    }
+
+    public void setMobile(String mobile) {
+<span class="nc" id="L53">        this.mobile = mobile;</span>
+<span class="nc" id="L54">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L58">        return &quot;Student{&quot; +</span>
+                &quot;_id='&quot; + _id + '\'' +
+                &quot;, studentname='&quot; + studentname + '\'' +
+                &quot;, studentaddress='&quot; + studentaddress + '\'' +
+                &quot;, mobile='&quot; + mobile + '\'' +
+                '}';
+    }
+
+
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
