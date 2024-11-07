@@ -1,0 +1,8 @@
+id,statusCode,scenario
+"dlz-f3a90de",200,"API Key."
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d",400,"Bad Request"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d",401,"The request lacks valid authentication credentials for this resource."
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d",403,"The access credentials were considered insufficient to grant access"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d",404,"Not Found"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d",429,"Rate Limit Exceeded"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d",500,"Oops, something went wrong!"

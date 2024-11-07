@@ -1,0 +1,10 @@
+id,display_name,description,statusCode,scenario
+"api_01","CI kafka access key","This API key provides kafka access to cluster x",200,"API Key."
+"api_02","Invalid Filter","The 'delorean' resource can't be filtered by 'num_doors'",400,"Bad Request"
+"api_03","Authentication Required","Valid authentication credentials must be provided",401,"The request lacks valid authentication credentials for this resource."
+"api_04","Kafka Clusters Per Org Quota Exceeded","The request would exceed the quota: kafka_clusters_per_environment",402,"The request would exceed one or more quotas."
+"api_05","User Access Unauthorized","The user 'mcfly' is not allowed to access the 'delorean' resource without the 'plutonium' role.",403,"The access credentials were considered insufficient to grant access"
+"api_06","Resource Not Found","Resource you are looking for is not found",404,"Not Found"
+"api_07","Validation Failed","The property '/cluster/storage_size' of type string did not match the following type: integer",422,"Validation Failed"
+"api_08","Rate Limit Exceeded","You have exceeded the rate limit of the API",429,"Rate Limit Exceeded"
+"api_09","DeLorean Out Of Gas","The DeLorean has run out of gas, but Doc Brown will fill 'er up for you asap",500,"Oops, something went wrong!"

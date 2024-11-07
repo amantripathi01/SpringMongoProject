@@ -1,0 +1,8 @@
+id,statusCode,scenario
+1,200,"Environment."
+2,400,"Bad Request"
+3,401,"The request lacks valid authentication credentials for this resource."
+4,403,"The access credentials were considered insufficient to grant access"
+5,404,"Not Found"
+6,429,"Rate Limit Exceeded"
+7,500,"Oops, something went wrong!"
