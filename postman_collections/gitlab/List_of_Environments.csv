@@ -1,0 +1,7 @@
+page_size,page_token,statusCode,scenario
+10,token1,200,"Environment."
+20,token2,400,"Bad Request"
+30,token3,401,"The request lacks valid authentication credentials for this resource."
+40,token4,403,"The access credentials were considered insufficient to grant access"
+50,token5,429,"Rate Limit Exceeded"
+60,token6,500,"Oops, something went wrong!"

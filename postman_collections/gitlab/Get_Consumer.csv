@@ -1,0 +1,7 @@
+cluster_id,consumer_group_id,consumer_id,statusCode,scenario
+"cluster-1","consumer-group-1","consumer-1",200,"The consumer."
+"cluster-2","consumer-group-2","consumer-2",400,"Indicates a bad request error. It could be caused by an unexpected request body format or other forms of request validation failure."
+"cluster-3","consumer-group-3","consumer-3",401,"Indicates a client authentication error. Kafka authentication failures will contain error code 40101 in the response body."
+"cluster-4","consumer-group-4","consumer-4",403,"Indicates a client authorization error. Kafka authorization failures will contain error code 40301 in the response body."
+"cluster-5","consumer-group-5","consumer-5",429,"Indicates that a rate limit threshold has been reached, and the client should retry again later."
+"cluster-6","consumer-group-6","consumer-6",500,"A server-side problem that might not be addressable from the client side. Retriable Kafka errors will contain error code 50003 in the response body."

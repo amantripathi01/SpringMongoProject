@@ -1,0 +1,7 @@
+spec.owner,spec.resource,page_size,page_token,statusCode,scenario
+"John Doe","Resource1",20,"Token1",200,"API Key."
+"Jane Doe","Resource2",30,"Token2",400,"Bad Request"
+"Jim Doe","Resource3",40,"Token3",401,"The request lacks valid authentication credentials for this resource."
+"Jill Doe","Resource4",50,"Token4",403,"The access credentials were considered insufficient to grant access"
+"Jack Doe","Resource5",60,"Token5",429,"Rate Limit Exceeded"
+"Jerry Doe","Resource6",70,"Token6",500,"Oops, something went wrong!"

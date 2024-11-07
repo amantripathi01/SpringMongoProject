@@ -1,0 +1,10 @@
+id,display_name,statusCode,scenario
+"dlz-f3a90de"^|"prod-finance01"^|200^|"Environment."
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"Invalid Filter"^|400^|"Bad Request"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"Authentication Required"^|401^|"The request lacks valid authentication credentials for this resource."
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"Kafka Clusters Per Org Quota Exceeded"^|402^|"The request would exceed one or more quotas."
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"User Access Unauthorized"^|403^|"The access credentials were considered insufficient to grant access"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"Not Found"^|404^|"Not Found"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"Validation Failed"^|422^|"Validation Failed"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"Rate Limit Exceeded"^|429^|"Rate Limit Exceeded"
+"ed42afdc-f0d5-4c0d-b428-9fc6ed6e279d"^|"DeLorean Out Of Gas"^|500^|"Oops, something went wrong!"
