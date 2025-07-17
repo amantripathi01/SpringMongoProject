@@ -1,0 +1,8 @@
+Verify that the API accepts valid prompt inputs
+Verify that the API enforces the maximum character limit on prompts
+Verify the API's handling of empty prompt inputs
+Verify whether special characters within the prompt are properly handled
+Test the response time of the API for valid prompt submission
+Simulate multiple users submitting prompts simultaneously
+Verify the ability to reset the input prompt field via API
+Verify the accessibility compliance for API functionality
