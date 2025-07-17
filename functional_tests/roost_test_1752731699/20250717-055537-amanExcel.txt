@@ -1,0 +1,84 @@
+{
+  "scenarios": [
+    {
+      "type": "functional",
+      "title": "Custom Prompt Input Validation",
+      "description": "Verify that the input prompt accepts valid text inputs.",
+      "testId": "TC-001",
+      "testDescription": "Ensure that users can input a valid prompt within the required character limit without errors.",
+      "prerequisites": "The input prompt feature must be available and accessible to the user.",
+      "stepsToPerform": "1. Open the application.\n2. Navigate to the custom prompt input field.\n3. Enter a valid prompt string (e.g., 'Generate a summary of this article').\n4. Click the 'Submit' button.",
+      "expectedResult": "The system successfully processes the input and proceeds without any validation errors."
+    },
+    {
+      "type": "functional",
+      "title": "Custom Prompt Character Limit Enforcement",
+      "description": "Ensure that the system enforces the maximum character limit on prompts.",
+      "testId": "TC-002",
+      "testDescription": "Test if the system restricts input prompts that exceed the maximum character count, displaying an appropriate error message.",
+      "prerequisites": "The maximum character limit for input prompts must be defined in the system.",
+      "stepsToPerform": "1. Navigate to the custom prompt input field.\n2. Enter a string longer than the allowed character limit (e.g., if the limit is 100 characters, input 120 characters).\n3. Try submitting the prompt.",
+      "expectedResult": "The system rejects the input and displays a clear error message indicating the character limit."
+    },
+    {
+      "type": "functional",
+      "title": "Custom Prompt Edge Case - Empty Input",
+      "description": "Check the system's handling of empty inputs in the custom prompt field.",
+      "testId": "TC-003",
+      "testDescription": "Ensure that the system does not proceed when the input prompt field is left empty.",
+      "prerequisites": "The feature must not accept empty inputs for validation.",
+      "stepsToPerform": "1. Navigate to the custom prompt input field.\n2. Leave the input field empty.\n3. Try submitting the request.",
+      "expectedResult": "The system displays an error message instructing the user to provide input."
+    },
+    {
+      "type": "functional",
+      "title": "Custom Prompt Special Character Support",
+      "description": "Verify whether special characters within the prompt are properly handled.",
+      "testId": "TC-004",
+      "testDescription": "Test if prompts containing special characters (e.g., @, #, $, %, etc.) are accepted and processed correctly.",
+      "prerequisites": "The feature must support the handling of all valid special characters.",
+      "stepsToPerform": "1. Input a prompt including special characters (e.g., 'Summarize @electrical#engineering concepts').\n2. Submit the prompt to the system.",
+      "expectedResult": "The system processes the input without errors and returns the correct output."
+    },
+    {
+      "type": "non-functional",
+      "title": "Prompt Response Time",
+      "description": "Test the system’s response time after a prompt is submitted.",
+      "testId": "TC-005",
+      "testDescription": "Measure whether the system provides a response within the acceptable performance timeframe (e.g., 2 seconds).",
+      "prerequisites": "The system must be in a fully functional state.",
+      "stepsToPerform": "1. Enter a valid prompt into the input field.\n2. Submit the prompt.\n3. Measure the time taken for the system to return a response.",
+      "expectedResult": "The system responds within 2 seconds, providing the appropriate output."
+    },
+    {
+      "type": "non-functional",
+      "title": "System Scalability with Simultaneous User Prompts",
+      "description": "Ensure the system performs adequately under high load.",
+      "testId": "TC-006",
+      "testDescription": "Evaluate how the system handles multiple users submitting prompts simultaneously.",
+      "prerequisites": "Simulate multiple users attempting to interact with the system at once.",
+      "stepsToPerform": "1. Simulate 1000 users submitting prompts simultaneously.\n2. Monitor server behavior for any slowness or crashes.\n3. Capture system resource utilization during the test.",
+      "expectedResult": "The system handles the load without a significant decrease in performance or errors."
+    },
+    {
+      "type": "functional",
+      "title": "Custom Prompt Undo/Reset Functionality",
+      "description": "Verify the ability to reset or clear the input prompt field before submission.",
+      "testId": "TC-007",
+      "testDescription": "Ensure that users can reset the input field to an empty state if necessary.",
+      "prerequisites": "The feature must include a clear or reset functionality accessible to the user.",
+      "stepsToPerform": "1. Navigate to the custom prompt input field.\n2. Enter a valid prompt into the field.\n3. Click the 'Reset' button.\n4. Verify that the input field clears as expected.",
+      "expectedResult": "The input field is cleared without errors, allowing the user to enter a new prompt."
+    },
+    {
+      "type": "non-functional",
+      "title": "Accessibility Compliance for Prompt Input",
+      "description": "Test if the input prompt feature adheres to accessibility standards (e.g., WCAG).",
+      "testId": "TC-008",
+      "testDescription": "Ensure the system works well for users with disabilities, such as proper screen-reader support and high-contrast mode.",
+      "prerequisites": "Accessibility tools and standards (e.g., screen readers, contrast testers) should be set up.",
+      "stepsToPerform": "1. Open the input prompt field with a screen reader enabled.\n2. Verify that the screen reader announces the purpose of the field.\n3. Switch to high-contrast mode and verify visual accessibility.\n4. Test keyboard-only navigation for interacting with the input field and submission.",
+      "expectedResult": "The input prompt feature is fully accessible, complying with WCAG standards."
+    }
+  ]
+}
